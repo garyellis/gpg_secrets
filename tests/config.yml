@@ -1,0 +1,8 @@
+---
+secrets:
+ - name: dev
+   url: 'git@foo/foo-bar-dev.git?ref=master'
+   path: 'environments/dev/infrastructure/foo'
+ - name: qa
+   url: 'git@foo/foo-bar-qa.git?ref=master'
+   path: 'environments/dev/infrastructure/foo'
